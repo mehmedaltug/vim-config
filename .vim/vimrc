@@ -1,0 +1,9 @@
+source ~/.vim/options.vim
+source ~/.vim/keybinds.vim
+source ~/.vim/plugins.vim
+source ~/.vim/colours.vim
+source ~/.vim/fzf.vim
+source ~/.vim/lightline.vim
+source ~/.vim/lsp.vim
+source ~/.vim/vimcomplete.vim
+source ~/.vim/pear-tree.vim

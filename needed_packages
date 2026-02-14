@@ -1,0 +1,2 @@
+sudo apt install python3-pylsp clangd fzf
+sudo npm install -g typescript-language-server typescript
