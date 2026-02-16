@@ -6,6 +6,7 @@ nnoremap <leader>sh :split<CR>
 nnoremap <leader>tth :term<CR>
 nnoremap <leader>ttv :vertical term<CR>
 nnoremap <leader>ttt :tab term<CR>
+nnoremap <leader>ls :tab term npx live-server<CR><C-\><C-n>:tabp<CR>
 tnoremap <Esc> <C-\><C-n>
 " nnoremap <leader>s<Right> <C-W>l
 " nnoremap <leader>s<Left> <C-W>h
@@ -25,3 +26,4 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 
 nnoremap <leader>pl :ProjectList<CR>
+nnoremap <leader>pc :Project <c-r>=expand("$PWD")<CR>
