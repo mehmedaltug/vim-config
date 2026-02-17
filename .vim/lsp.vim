@@ -5,25 +5,25 @@ let lspServers = [
     \  #{
 	\    name: 'clangd',
 	\    filetype: ['c', 'cpp'],
-	\    path: '/usr/bin/clangd',
+	\    path: 'clangd',
 	\    args: ['--background-index']
 	\  },
     \  #{
 	\    name: 'pylsp',
 	\    filetype: ['python'],
-	\    path: '/usr/bin/pylsp',
+	\    path: 'pylsp',
 	\    args: []
 	\  },
     \  #{
 	\    name: 'jdtls',
 	\    filetype: ['java'],
-	\    path: expand('$HOME/.vim/jdtls/bin/jdtls'),
+	\    path: 'jdtls',
 	\    args: []
 	\  },
     \  #{
     \    name: 'typescriptlang',
 	\    filetype: ['javascript', 'typescript'],
-	\    path: '/usr/local/bin/typescript-language-server',
+	\    path: 'typescript-language-server',
 	\    args: ['--stdio'],
 	\  }
     \ ]
