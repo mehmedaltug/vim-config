@@ -10,7 +10,7 @@ set showmatch
 set backspace=indent,eol,start
 syntax on
 
-" --- Windows Terminal Cursor Shape Fix ---
+set ttimeoutlen=10
 
 " &t_SI = Start Insert Mode (Send cursor shape: Bar)
 let &t_SI = "\e[6 q"

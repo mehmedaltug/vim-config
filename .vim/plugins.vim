@@ -16,14 +16,12 @@ function! s:ensure(repo)
   execute 'set runtimepath+=' . fnameescape(path)
 endfunction
 
-" call s:ensure('ghifarit53/tokyonight-vim')
-
 call s:ensure('morhetz/gruvbox')
 call s:ensure('junegunn/fzf.vim')
 call s:ensure('junegunn/fzf')
 call s:ensure('itchyny/lightline.vim')
 call s:ensure('yegappan/lsp')
 call s:ensure('girishji/vimcomplete')
-call s:ensure('tmsvg/pear-tree')
-call s:ensure('github/copilot.vim')
+call s:ensure('raimondi/delimitmate')
+" call s:ensure('github/copilot.vim')
 call s:ensure('leafOfTree/vim-project')

@@ -6,4 +6,3 @@ source ~/.vim/fzf.vim
 source ~/.vim/lightline.vim
 source ~/.vim/lsp.vim
 source ~/.vim/vimcomplete.vim
-source ~/.vim/pear-tree.vim
