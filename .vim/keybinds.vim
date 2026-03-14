@@ -4,9 +4,9 @@ nnoremap <leader>cd :Ex<CR>
 nnoremap <leader>sv :vsplit<CR>
 nnoremap <leader>sh :split<CR>
 
-nnoremap <leader>tth :term<CR>
-nnoremap <leader>ttv :vertical term<CR>
-nnoremap <leader>ttt :tab term<CR>
+nnoremap <leader>th :term<CR>
+nnoremap <leader>tv :vertical term<CR><C-W>L
+nnoremap <leader>tt :tab term<CR>
 tnoremap <Esc> <C-\><C-n>
 
 nnoremap <leader>tn :tabnew<CR>
@@ -26,3 +26,6 @@ nnoremap <leader>q :q<CR>
 nnoremap <leader>pl :ProjectList<CR>
 nnoremap <leader>pc :Project <c-r>=expand("$PWD")<CR>
 nnoremap <leader>ls :tab term npx live-server<CR><C-\><C-n>:tabp<CR>
+nnoremap <leader>cr :vertical term copilot -i resume<CR><C-W>L
+nnoremap <leader>cn :vertical term copilot<CR><C-W>L
+nnoremap <leader>ct :tab term copilot<CR>
