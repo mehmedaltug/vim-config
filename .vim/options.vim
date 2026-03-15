@@ -8,6 +8,7 @@ set relativenumber
 set smartindent
 set showmatch
 set backspace=indent,eol,start
+set cursorline
 syntax on
 
 set ttimeoutlen=10
